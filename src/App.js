@@ -1,22 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          Exp & carreira
+        </h1>
+          Olá my name's Roniere, have 17 y!
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Quer saber mais sobre minha carreira de programador tanto back como front end?
         </p>
-        <a
+        <b>-</b> <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ronieremarques.blogs-tutorials.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+        acesse meu portfolio
+        </a> <i class="fa-solid fa-up-right-from-square"></i>
       </header>
     </div>
   );
